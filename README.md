@@ -1,2 +1,3 @@
 # megaproject
-первый проект
+
+study
