@@ -56,6 +56,13 @@ em {
 }
 
 /* Team ========== */
+.section_4 {
+  background-color: #eeeeee;
+  padding-top: 58px;
+  /* промежуточный вариант отступа, не на 100% соответсвует макету */
+  padding-bottom: 84px;
+}
+
 figure {
   text-align: center;
   padding: 24px;
@@ -78,13 +85,16 @@ figure {
 /* Footer ========== */
 .footer {
   background-color: #333333;
-  padding: 0.5em;
   text-align: center;
+  height: 176px;
 }
 
 p.text_footer {
   font-size: 18px;
+  line-height: 21px;
   color: #ffffff;
+  padding-top: 50px;
+  margin: auto;
 }
 
 /* ==========================================================================
