@@ -55,7 +55,6 @@ em {
   height: 100%;
   display: flex;
   align-items: center;
-  color: #ffffff;
   justify-content: space-between;
   max-width: 1219px;
   padding-right: 55px;
@@ -66,9 +65,37 @@ em {
 }
 
 .logo {
-  float: left;
   height: 45px;
   width: 184px;
+}
+
+.menu_right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu_right a.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.bar_navigation nav.separate_menu {
+  padding-right: 11px;
+  padding-left: 11px;
+  color: #ffffff;
+}
+
+/* Section 1 ========== */
+.section_1 {
+  background-image: url(images/section_1.svg);
+  height: 403px;
+  line-height: 403px;
+  /* align-items: center; */
+  color: #ffffff;
+}
+
+.section_1 h1 {
+  margin-top: auto;
 }
 
 /* Team ========== */
