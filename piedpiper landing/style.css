@@ -44,15 +44,31 @@ em {
 }
 
 /* Navigation ========== */
-.bar_navigation {
-  background-color: #007765;
-  position: fixed;
+.bar {
+  position: sticky;
   top: 0;
-  width: 100%;
+  background-color: #007765;
   height: 84px;
+}
+
+.bar_navigation {
+  height: 100%;
   display: flex;
   align-items: center;
   color: #ffffff;
+  justify-content: space-between;
+  max-width: 1219px;
+  padding-right: 55px;
+  padding-left: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+}
+
+.logo {
+  float: left;
+  height: 45px;
+  width: 184px;
 }
 
 /* Team ========== */
