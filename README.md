@@ -1,2 +1,2 @@
 # megaproject
-ыегв
+study
