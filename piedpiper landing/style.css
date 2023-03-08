@@ -98,8 +98,26 @@ em {
   margin-top: auto;
 }
 
+/* Section_2  ========== */
+.section_2 {
+  background-color: #eeeeee;
+}
+
+/* Section_3  ========== */
+.section_3 {
+  background-image: url(images/section_3.svg);
+  height: 483px;
+  line-height: 483px;
+  text-align: center;
+  margin-top: auto;
+}
+
+.section_3 em {
+  color: #eeeeee;
+}
+
 /* Team ========== */
-.section_4 {
+.section_5 {
   background-color: #eeeeee;
   padding-top: 58px;
   /* промежуточный вариант отступа, не на 100% соответсвует макету */
